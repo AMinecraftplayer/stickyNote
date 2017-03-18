@@ -1,3 +1,7 @@
 < en_US.lang - English localization file for the mod StickyNote >
 
+#Items
 item.stickynote:stickynote_item.name=Sticky Note
+
+#Blocks
+tile.stickynote:stickynote_block.name=Sticky Note Block

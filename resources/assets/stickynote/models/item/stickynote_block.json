@@ -1,0 +1,6 @@
+{
+  "parent": "stickynote:block/stickynote_block",
+  "textures": {
+    "layer0": "stickynote:block/stickynote_block"
+  }
+}

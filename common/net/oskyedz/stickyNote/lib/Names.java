@@ -11,6 +11,12 @@ public class Names {
  * Items
  */
 
-	public static final String STICKY_NOTE = "stickynote_item"; //Only for demonstration purposes. Has to be lower case, can have e underscore. 
+	public static final String STICKY_NOTE = "stickynote_item"; //Has to be lower case, can have underscore. 
+	
+/*
+ * Blocks
+*/
+	
+	public static final String STICKY_BLOCK = "stickynote_block";
 	
 }

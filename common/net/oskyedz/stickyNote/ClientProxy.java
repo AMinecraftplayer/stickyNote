@@ -1,9 +1,11 @@
 package net.oskyedz.stickyNote;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.oskyedz.stickyNote.init.ModBlocks;
 import net.oskyedz.stickyNote.init.ModItems;
 
 /**
@@ -23,7 +25,15 @@ public class ClientProxy extends CommonProxy {
 		
 		super.init(event);
 		
-		ModItems.initClient(Minecraft.getMinecraft().getRenderItem().getItemModelMesher());
+		/**
+		 * Model regristration has to happen a phase after(init, instead of preInint) the regristration of the blocks and items themself.
+		 */
+		
+		ItemModelMesher mesher = Minecraft.getMinecraft().getRenderItem().getItemModelMesher();
+		
+		ModBlocks.initClient(mesher); //Register block models
+		
+		ModItems.initClient(mesher); //Register item models
 	}
 	
 	@Override
