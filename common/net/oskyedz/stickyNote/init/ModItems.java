@@ -43,6 +43,15 @@ public class ModItems {
 		
 	}
 	
+	 /**
+	   * Here we call the addRecipes method for all items that have one. Should be called during the init phase.
+	   */
+	  public static void initRecipes() {
+
+	    stickyNoteItem.addRecipes();
+	  }
+
+	
 	  /**
 	   * The client-side initializer. Here we handle model registration. Note the @SideOnly annotation. This causes the method
 	   * to exist only on the client-side, preventing servers from crashing.

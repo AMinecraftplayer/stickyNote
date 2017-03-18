@@ -54,7 +54,7 @@ public class stickyNote {
 		
 	}
 	
-	public static CreativeTabs tabStickyNote = new CreativeTabs(StickyNote.RESOURCEPREFIX + "creative_tab") {
+	public static CreativeTabs tabStickyNote = new CreativeTabs(stickyNote.RESOURCEPREFIX + "creative_tab") {
 
 		@Override
 		public ItemStack getTabIconItem() {
