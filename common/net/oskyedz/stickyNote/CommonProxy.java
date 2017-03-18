@@ -3,6 +3,7 @@ package net.oskyedz.stickyNote;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.oskyedz.stickyNote.init.ModItems;
 
 /**
  * The common version of the proxy. Everything in here is done on both the client AND the server!
@@ -10,6 +11,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class CommonProxy {
 	
 	public void preInit(FMLPreInitializationEvent event) {//Usually to register blocks and items, not models
+		
+		ModItems.init();
 		
 	}
 	

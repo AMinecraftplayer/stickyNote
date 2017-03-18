@@ -1,0 +1,13 @@
+[
+{
+  "modid": "stickynote",
+  "name": "Osky's Sticky Note's Mod",
+  "description": "A sticky note mod for quick comemnt while playing Minecraft 1.11.2",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/AMinecraftplayer/stickyNote-1.11.2",
+  "authors": [ "OskyEdz" ],
+  "credits": "Thanks SilentChaos512, for making a awesome Youtube-tutorial! Thanks to the Forge team for all their hard work!",
+  "logoFile": "", 
+}
+]

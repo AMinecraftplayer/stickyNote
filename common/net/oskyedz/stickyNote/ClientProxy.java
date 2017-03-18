@@ -1,8 +1,10 @@
 package net.oskyedz.stickyNote;
 
+import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.oskyedz.stickyNote.init.ModItems;
 
 /**
  * The client-side only version of the proxy. Anything that should be done only on the client should be called from
@@ -20,6 +22,8 @@ public class ClientProxy extends CommonProxy {
 	public void init(FMLInitializationEvent event) {
 		
 		super.init(event);
+		
+		ModItems.initClient(Minecraft.getMinecraft().getRenderItem().getItemModelMesher());
 	}
 	
 	@Override

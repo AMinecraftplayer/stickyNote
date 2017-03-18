@@ -16,7 +16,7 @@ public class stickyNote {
 	
 	//Constant
 	public static final String MOD_ID = "stickynote";//Mod id which the mod is identified with against other mods.  Must be lowercase 
-	public static final String MOD_NAME = "Sticky Note's";//The actual name of the mod as presented to users
+	public static final String MOD_NAME = "Osky's Sticky Note's Mod";//The actual name of the mod as presented to users
 	public static final String VERSION = "@VERSION@";//The version number. replace this string with current build number in build.gradle 
 	public static final String DEPENDENCIES = ""; //Required-after: given mod need to be loaded, my mod loads after & after: my mod loads after given mod or before
 	public static final String RESOURCEPREFIX = MOD_ID.toLowerCase() + ":"; // "stickynote:" Resource prefix is used for ModelResourceLocations and some other things
