@@ -14,8 +14,9 @@ import net.oskyedz.stickyNote.block.BlockStickyNote;
 import net.oskyedz.stickyNote.lib.Names;
 
 /**
- * This class handles Block registration. It's very similar to ModItems. Registering a Block is similar to an Item, but
- * takes a couple extra steps. Again, init is client and server and initClient is client-side only.
+ * This class handles Block registration. It's very similar to ModItems.
+ * Registering a Block is similar to an Item, but takes a couple extra steps.
+ * Again, init is client and server and initClient is client-side only.
  */
 
 public class ModBlocks {

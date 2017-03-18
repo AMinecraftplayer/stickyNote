@@ -5,3 +5,6 @@ item.stickynote:stickynote_item.name=Fästisar
 
 #Blocks
 tile.stickynote:stickynote_block.name=Fästis Block
+
+#Creative Tab
+itemGroup.stickynote:creative_tab= Fästis Tab
