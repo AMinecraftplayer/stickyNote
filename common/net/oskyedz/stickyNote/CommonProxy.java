@@ -22,7 +22,7 @@ public class CommonProxy {
 		 * init-phase.
 		 */
 
-		ModBlocks.init(); // Blocks
+		ModBlocks.init(); // Blocks and tile entities.
 
 		ModItems.init(); // Items
 
