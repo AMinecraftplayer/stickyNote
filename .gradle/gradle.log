@@ -11,11 +11,11 @@ This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril
 #################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
-:sourceApiJava
+:sourceApiJava UP-TO-DATE
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
+:sourceMainJava UP-TO-DATE
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
 Note: F:\Test-Developmeny-Projekt\Gymarbete\Projektmapp\source\1.11.2\stickyNote\build\sources\main\java\net\oskyedz\stickyNote\block\BlockStickyNote.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
@@ -23,10 +23,10 @@ Note: F:\Test-Developmeny-Projekt\Gymarbete\Projektmapp\source\1.11.2\stickyNote
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
-:processResources
+:processResources UP-TO-DATE
 :classes
 :jar
-:sourceTestJava
+:sourceTestJava UP-TO-DATE
 :compileTestJava UP-TO-DATE
 :processTestResources UP-TO-DATE
 :testClasses UP-TO-DATE
@@ -34,7 +34,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :extractMcpData SKIPPED
 :extractMcpMappings SKIPPED
 :getVersionJson
-:extractUserdev
+:extractUserdev UP-TO-DATE
 :genSrgs SKIPPED
 :reobfJar
 :extractRangemapReplacedMain
@@ -48,4 +48,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 29.998 secs
+Total time: 13.01 secs

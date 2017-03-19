@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 
 version = "0.1.0"
-group = "com.oskyedz.stickynote" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = "net.oskyedz.stickynote" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "StickyNote-1.11.2"
 
 sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.

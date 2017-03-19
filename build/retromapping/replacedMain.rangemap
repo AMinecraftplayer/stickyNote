@@ -1,6 +1,7 @@
 Symbol range map extraction starting
 Processing 12 files
 startProcessing "net\oskyedz\stickyNote\ClientProxy.java" md5: 08d9e5da293729fef5983f03624c703f
+Cache Hit!
 @|net\oskyedz\stickyNote\ClientProxy.java|8|30|net.oskyedz.stickyNote|package|net.oskyedz.stickyNote|(file)
 Class Start: net.oskyedz.stickyNote.ClientProxy
    @|net\oskyedz\stickyNote\ClientProxy.java|680|691|ClientProxy|class|net.oskyedz.stickyNote.ClientProxy
@@ -48,6 +49,7 @@ Class End  : net.oskyedz.stickyNote.ClientProxy
 endProcessing "net\oskyedz\stickyNote\ClientProxy.java"
 
 startProcessing "net\oskyedz\stickyNote\CommonProxy.java" md5: 0a8ee5ad4fa1b966bff983c50b90e94b
+Cache Hit!
 @|net\oskyedz\stickyNote\CommonProxy.java|8|30|net.oskyedz.stickyNote|package|net.oskyedz.stickyNote|(file)
 Class Start: net.oskyedz.stickyNote.CommonProxy
    @|net\oskyedz\stickyNote\CommonProxy.java|455|466|CommonProxy|class|net.oskyedz.stickyNote.CommonProxy
@@ -78,6 +80,7 @@ Class End  : net.oskyedz.stickyNote.CommonProxy
 endProcessing "net\oskyedz\stickyNote\CommonProxy.java"
 
 startProcessing "net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java" md5: 72108b2016a3d4ce9002c0ba56b65e43
+Cache Hit!
 @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|8|34|net.oskyedz.stickyNote.GUI|package|net.oskyedz.stickyNote.GUI|(file)
 Class Start: net.oskyedz.stickyNote.GUI.GuiBlockStickyNote
    @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|288|306|GuiBlockStickyNote|class|net.oskyedz.stickyNote.GUI.GuiBlockStickyNote
@@ -112,6 +115,7 @@ Class End  : net.oskyedz.stickyNote.GUI.GuiBlockStickyNote
 endProcessing "net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java"
 
 startProcessing "net\oskyedz\stickyNote\GUI\GuiHandler.java" md5: 0bead8037a4d63a8e8a0f10cb87bf86f
+Cache Hit!
 @|net\oskyedz\stickyNote\GUI\GuiHandler.java|8|34|net.oskyedz.stickyNote.GUI|package|net.oskyedz.stickyNote.GUI|(file)
 Class Start: net.oskyedz.stickyNote.GUI.GuiHandler
    @|net\oskyedz\stickyNote\GUI\GuiHandler.java|192|202|GuiHandler|class|net.oskyedz.stickyNote.GUI.GuiHandler
@@ -147,6 +151,7 @@ Class End  : net.oskyedz.stickyNote.GUI.GuiHandler
 endProcessing "net\oskyedz\stickyNote\GUI\GuiHandler.java"
 
 startProcessing "net\oskyedz\stickyNote\block\BlockStickyNote.java" md5: 0d76491238748cdefa2bc5a66ca27a48
+Cache Hit!
 @|net\oskyedz\stickyNote\block\BlockStickyNote.java|8|36|net.oskyedz.stickyNote.block|package|net.oskyedz.stickyNote.block|(file)
 Class Start: net.oskyedz.stickyNote.block.BlockStickyNote
    @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1298|1313|BlockStickyNote|class|net.oskyedz.stickyNote.block.BlockStickyNote
@@ -429,6 +434,7 @@ Class End  : net.oskyedz.stickyNote.block.BlockStickyNote
 endProcessing "net\oskyedz\stickyNote\block\BlockStickyNote.java"
 
 startProcessing "net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java" md5: 463f455b90d10be54d348f227d66b67b
+Cache Hit!
 @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|8|46|net.oskyedz.stickyNote.container.slots|package|net.oskyedz.stickyNote.container.slots|(file)
 Class Start: net.oskyedz.stickyNote.container.slots.SlotEnchantedBook
    @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|228|245|SlotEnchantedBook|class|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook
@@ -461,6 +467,7 @@ Class End  : net.oskyedz.stickyNote.container.slots.SlotEnchantedBook
 endProcessing "net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java"
 
 startProcessing "net\oskyedz\stickyNote\handlers\EnumHandler.java" md5: d8cb831ec5b24bab161cf9d391e6d512
+Cache Hit!
 @|net\oskyedz\stickyNote\handlers\EnumHandler.java|8|39|net.oskyedz.stickyNote.handlers|package|net.oskyedz.stickyNote.handlers|(file)
 Class Start: net.oskyedz.stickyNote.handlers.EnumHandler
    @|net\oskyedz\stickyNote\handlers\EnumHandler.java|264|275|EnumHandler|class|net.oskyedz.stickyNote.handlers.EnumHandler
@@ -711,6 +718,7 @@ Class End  : net.oskyedz.stickyNote.item.ItemStickyNote
 endProcessing "net\oskyedz\stickyNote\item\ItemStickyNote.java"
 
 startProcessing "net\oskyedz\stickyNote\lib\Names.java" md5: e872b46a408fd92c7f40f93363f20d38
+Cache Hit!
 @|net\oskyedz\stickyNote\lib\Names.java|8|34|net.oskyedz.stickyNote.lib|package|net.oskyedz.stickyNote.lib|(file)
 Class Start: net.oskyedz.stickyNote.lib.Names
    @|net\oskyedz\stickyNote\lib\Names.java|284|289|Names|class|net.oskyedz.stickyNote.lib.Names
