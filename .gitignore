@@ -18,6 +18,11 @@ local.properties
 build.properties
 .gradle
 libs
+gradlew.bat
+.gitignore
+build.gradle
+scripts/
+gradle/
 
 # External tool builders
 .externalToolBuilders/
