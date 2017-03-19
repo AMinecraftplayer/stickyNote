@@ -1,6 +1,12 @@
 Sticky Note's Mod - Changelog
 
+0.1.5
+Started workling on a GUI, fully functional in 0.2.x
+Fixed: .gitignore (I hope)
+
 0.1.0
+Added: Item: Sticky Note's
+Added: Block: Sticky Note Block (temp) 
 
 0.0.1 (Minecraft 1.11.2)
 Starting point. Every mod start somewhere, mine start here.
