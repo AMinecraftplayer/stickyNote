@@ -1,11 +1,8 @@
 package net.oskyedz.stickyNote;
 
-import net.minecraft.item.Item;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.oskyedz.stickyNote.init.ModBlocks;
 import net.oskyedz.stickyNote.init.ModItems;
 
@@ -22,7 +19,7 @@ public class CommonProxy {
 		 * init-phase.
 		 */
 
-		ModBlocks.init(); // Blocks and tile entities.
+		ModBlocks.init(); // Blocks
 
 		ModItems.init(); // Items
 

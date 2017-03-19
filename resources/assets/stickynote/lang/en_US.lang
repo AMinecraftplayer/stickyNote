@@ -7,4 +7,7 @@ item.stickynote:stickynote_item.name=Sticky Note's
 tile.stickynote:stickynote_block.name=Sticky Note's Block
 
 #Creative Tab
-itemGroup.stickynote:creative_tab= Sticky Note's Tab
+itemGroup.stickynote:creative_tab=Sticky Note's Tab
+
+#Containers
+container.block_stickyNoteBlock=Sticky Note's 
