@@ -4,6 +4,8 @@ package net.oskyedz.stickyNote.lib;
  * Used to store String constants for names of things, like blocks and items.
  * Don't hardcode the names. That opens the possibility of making a mistake in
  * one place... And if your names don't line up, things will break!
+ * 
+ * Variables are all UPPERCASE and refers has to be lower case, can have underscore.
  */
 
 public class Names {
@@ -12,10 +14,7 @@ public class Names {
 	 * Items
 	 */
 
-	public static final String STICKY_NOTE = "stickynote_item"; // Has to be
-																// lower case,
-																// can have
-																// underscore.
+	public static final String STICKY_NOTE = "stickynote_item"; 
 
 	/*
 	 * Blocks
@@ -27,6 +26,6 @@ public class Names {
 	 * Tile Entities
 	 */
 
-	public static final String STICKY_ENTITY = "block_stickyNoteBlock";
+	public static final String STICKY_ENTITY = "";
 
 }
