@@ -68,9 +68,6 @@ public class ModBlocks {
 	public static void initClient(ItemModelMesher mesher) {
 
 		// We can only register models for Items, so get the item for the block.
-		// Maybe you could save a reference to the
-		// ItemBlock in init? I haven't tried it, but we likely wouldn't use it
-		// anywhere else, so it's not worth doing.
 		Item item = Item.getItemFromBlock(stickyNoteBlock);
 		// Everything past this point is identical to registering models for
 		// items.
