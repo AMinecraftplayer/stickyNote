@@ -1,0 +1,34 @@
+Symbol range map extraction starting
+Processing 8 files
+startProcessing "net\oskyedz\stickyNote\ClientProxy.java" md5: 556869f0c5129e3a3eddfc480940971b
+Cache Hit!
+endProcessing "net\oskyedz\stickyNote\ClientProxy.java"
+
+startProcessing "net\oskyedz\stickyNote\CommonProxy.java" md5: 4c807ab44c7c242a1751474d401762fd
+Cache Hit!
+endProcessing "net\oskyedz\stickyNote\CommonProxy.java"
+
+startProcessing "net\oskyedz\stickyNote\block\BlockStickyNote.java" md5: c8e722b345d024c2ffd381f9087d9273
+Cache Hit!
+endProcessing "net\oskyedz\stickyNote\block\BlockStickyNote.java"
+
+startProcessing "net\oskyedz\stickyNote\init\ModBlocks.java" md5: 4d9c93ed2b95c2a72e58449e28f3136c
+Cache Hit!
+endProcessing "net\oskyedz\stickyNote\init\ModBlocks.java"
+
+startProcessing "net\oskyedz\stickyNote\init\ModItems.java" md5: 5388792ae074584ce4d5d38f359eb567
+Cache Hit!
+endProcessing "net\oskyedz\stickyNote\init\ModItems.java"
+
+startProcessing "net\oskyedz\stickyNote\item\ItemStickyNote.java" md5: 612a10d3fa40b273b928ef524b56fd4c
+Cache Hit!
+endProcessing "net\oskyedz\stickyNote\item\ItemStickyNote.java"
+
+startProcessing "net\oskyedz\stickyNote\lib\Names.java" md5: addf42b87e706b71e73d2b3d7d5efc70
+Cache Hit!
+endProcessing "net\oskyedz\stickyNote\lib\Names.java"
+
+startProcessing "net\oskyedz\stickyNote\stickyNote.java" md5: e46a3c059068f0868a2695ad463aef6c
+Cache Hit!
+endProcessing "net\oskyedz\stickyNote\stickyNote.java"
+

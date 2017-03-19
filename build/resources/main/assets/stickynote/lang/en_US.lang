@@ -1,0 +1,10 @@
+< en_US.lang - English localization file for the mod StickyNote's >
+
+#Items
+item.stickynote:stickynote_item.name=Sticky Note's
+
+#Blocks
+tile.stickynote:stickynote_block.name=Sticky Note's Block
+
+#Creative Tab
+itemGroup.stickynote:creative_tab= Sticky Note's Tab

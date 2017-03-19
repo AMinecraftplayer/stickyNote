@@ -1,0 +1,6 @@
+Sticky Note's Mod - Changelog
+
+0.1.0
+
+0.0.1 (Minecraft 1.11.2)
+Starting point. Every mod start somewhere, mine start here.
