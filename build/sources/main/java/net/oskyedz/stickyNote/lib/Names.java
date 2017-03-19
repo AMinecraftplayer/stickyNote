@@ -23,4 +23,10 @@ public class Names {
 
 	public static final String STICKY_BLOCK = "stickynote_block";
 
+	/*
+	 * Tile Entities
+	 */
+
+	public static final String STICKY_ENTITY = "block_stickyNoteBlock";
+
 }

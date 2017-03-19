@@ -1,130 +1,544 @@
 Symbol range map extraction starting
-Processing 8 files
-startProcessing "net\oskyedz\stickyNote\ClientProxy.java" md5: 556869f0c5129e3a3eddfc480940971b
-Cache Hit!
+Processing 12 files
+startProcessing "net\oskyedz\stickyNote\ClientProxy.java" md5: 08d9e5da293729fef5983f03624c703f
 @|net\oskyedz\stickyNote\ClientProxy.java|8|30|net.oskyedz.stickyNote|package|net.oskyedz.stickyNote|(file)
 Class Start: net.oskyedz.stickyNote.ClientProxy
-   @|net\oskyedz\stickyNote\ClientProxy.java|572|583|ClientProxy|class|net.oskyedz.stickyNote.ClientProxy
-   @|net\oskyedz\stickyNote\ClientProxy.java|592|603|CommonProxy|class|net.oskyedz.stickyNote.CommonProxy
+   @|net\oskyedz\stickyNote\ClientProxy.java|680|691|ClientProxy|class|net.oskyedz.stickyNote.ClientProxy
+   @|net\oskyedz\stickyNote\ClientProxy.java|700|711|CommonProxy|class|net.oskyedz.stickyNote.CommonProxy
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|665|670|event|param|net.oskyedz.stickyNote.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|net\oskyedz\stickyNote\ClientProxy.java|609|617|Override|class|java.lang.Override
-      @|net\oskyedz\stickyNote\ClientProxy.java|631|638|preInit|method|net.oskyedz.stickyNote.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|639|664|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|net\oskyedz\stickyNote\ClientProxy.java|683|690|preInit|method|net.oskyedz.stickyNote.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|691|696|event|param|net.oskyedz.stickyNote.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\oskyedz\stickyNote\ClientProxy.java|773|778|event|param|net.oskyedz.stickyNote.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\oskyedz\stickyNote\ClientProxy.java|717|725|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\ClientProxy.java|739|746|preInit|method|net.oskyedz.stickyNote.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|747|772|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\oskyedz\stickyNote\ClientProxy.java|791|798|preInit|method|net.oskyedz.stickyNote.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|799|804|event|param|net.oskyedz.stickyNote.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|755|760|event|param|net.oskyedz.stickyNote.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|net\oskyedz\stickyNote\ClientProxy.java|705|713|Override|class|java.lang.Override
-      @|net\oskyedz\stickyNote\ClientProxy.java|727|731|init|method|net.oskyedz.stickyNote.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|732|754|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|net\oskyedz\stickyNote\ClientProxy.java|773|777|init|method|net.oskyedz.stickyNote.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|778|783|event|param|net.oskyedz.stickyNote.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|net\oskyedz\stickyNote\ClientProxy.java|939|954|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
-      @|net\oskyedz\stickyNote\ClientProxy.java|964|973|Minecraft|class|net.minecraft.client.Minecraft
-      @|net\oskyedz\stickyNote\ClientProxy.java|974|986|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|net\oskyedz\stickyNote\ClientProxy.java|989|1002|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
-      @|net\oskyedz\stickyNote\ClientProxy.java|1010|1028|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
-      @|net\oskyedz\stickyNote\ClientProxy.java|1035|1044|ModBlocks|class|net.oskyedz.stickyNote.init.ModBlocks
-      @|net\oskyedz\stickyNote\ClientProxy.java|1045|1055|initClient|method|net.oskyedz.stickyNote.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|1093|1101|ModItems|class|net.oskyedz.stickyNote.init.ModItems
-      @|net\oskyedz\stickyNote\ClientProxy.java|1102|1112|initClient|method|net.oskyedz.stickyNote.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|863|868|event|param|net.oskyedz.stickyNote.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\oskyedz\stickyNote\ClientProxy.java|813|821|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\ClientProxy.java|835|839|init|method|net.oskyedz.stickyNote.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|840|862|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\oskyedz\stickyNote\ClientProxy.java|881|885|init|method|net.oskyedz.stickyNote.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|886|891|event|param|net.oskyedz.stickyNote.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\oskyedz\stickyNote\ClientProxy.java|1047|1062|ItemModelMesher|class|net.minecraft.client.renderer.ItemModelMesher
+      @|net\oskyedz\stickyNote\ClientProxy.java|1072|1081|Minecraft|class|net.minecraft.client.Minecraft
+      @|net\oskyedz\stickyNote\ClientProxy.java|1082|1094|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net\oskyedz\stickyNote\ClientProxy.java|1097|1110|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|net\oskyedz\stickyNote\ClientProxy.java|1118|1136|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|net\oskyedz\stickyNote\ClientProxy.java|1143|1152|ModBlocks|class|net.oskyedz.stickyNote.init.ModBlocks
+      @|net\oskyedz\stickyNote\ClientProxy.java|1153|1163|initClient|method|net.oskyedz.stickyNote.init.ModBlocks|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|1201|1209|ModItems|class|net.oskyedz.stickyNote.init.ModItems
+      @|net\oskyedz\stickyNote\ClientProxy.java|1210|1220|initClient|method|net.oskyedz.stickyNote.init.ModItems|initClient|(Lnet/minecraft/client/renderer/ItemModelMesher;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|1257|1272|NetworkRegistry|class|net.minecraftforge.fml.common.network.NetworkRegistry
+      @|net\oskyedz\stickyNote\ClientProxy.java|1273|1281|INSTANCE|field|net.minecraftforge.fml.common.network.NetworkRegistry|INSTANCE
+      @|net\oskyedz\stickyNote\ClientProxy.java|1282|1300|registerGuiHandler|method|net.minecraftforge.fml.common.network.NetworkRegistry|registerGuiHandler|(Ljava/lang/Object;Lnet/minecraftforge/fml/common/network/IGuiHandler;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|1301|1311|stickyNote|class|net.oskyedz.stickyNote.stickyNote
+      @|net\oskyedz\stickyNote\ClientProxy.java|1312|1320|instance|field|net.oskyedz.stickyNote.stickyNote|instance
+      @|net\oskyedz\stickyNote\ClientProxy.java|1330|1340|GuiHandler|class|net.oskyedz.stickyNote.GUI.GuiHandler
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|1210|1215|event|param|net.oskyedz.stickyNote.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|net\oskyedz\stickyNote\ClientProxy.java|1152|1160|Override|class|java.lang.Override
-      @|net\oskyedz\stickyNote\ClientProxy.java|1174|1182|postInit|method|net.oskyedz.stickyNote.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|1183|1209|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
-      @|net\oskyedz\stickyNote\ClientProxy.java|1228|1236|postInit|method|net.oskyedz.stickyNote.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|net\oskyedz\stickyNote\ClientProxy.java|1237|1242|event|param|net.oskyedz.stickyNote.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\oskyedz\stickyNote\ClientProxy.java|1409|1414|event|param|net.oskyedz.stickyNote.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\oskyedz\stickyNote\ClientProxy.java|1351|1359|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\ClientProxy.java|1373|1381|postInit|method|net.oskyedz.stickyNote.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|1382|1408|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\oskyedz\stickyNote\ClientProxy.java|1427|1435|postInit|method|net.oskyedz.stickyNote.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\oskyedz\stickyNote\ClientProxy.java|1436|1441|event|param|net.oskyedz.stickyNote.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
 Class End  : net.oskyedz.stickyNote.ClientProxy
 endProcessing "net\oskyedz\stickyNote\ClientProxy.java"
 
-startProcessing "net\oskyedz\stickyNote\CommonProxy.java" md5: 4c807ab44c7c242a1751474d401762fd
-Cache Hit!
+startProcessing "net\oskyedz\stickyNote\CommonProxy.java" md5: 0a8ee5ad4fa1b966bff983c50b90e94b
 @|net\oskyedz\stickyNote\CommonProxy.java|8|30|net.oskyedz.stickyNote|package|net.oskyedz.stickyNote|(file)
 Class Start: net.oskyedz.stickyNote.CommonProxy
-   @|net\oskyedz\stickyNote\CommonProxy.java|591|602|CommonProxy|class|net.oskyedz.stickyNote.CommonProxy
+   @|net\oskyedz\stickyNote\CommonProxy.java|455|466|CommonProxy|class|net.oskyedz.stickyNote.CommonProxy
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|net\oskyedz\stickyNote\CommonProxy.java|653|658|event|param|net.oskyedz.stickyNote.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|net\oskyedz\stickyNote\CommonProxy.java|619|626|preInit|method|net.oskyedz.stickyNote.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|net\oskyedz\stickyNote\CommonProxy.java|627|652|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|net\oskyedz\stickyNote\CommonProxy.java|770|779|ModBlocks|class|net.oskyedz.stickyNote.init.ModBlocks
-      @|net\oskyedz\stickyNote\CommonProxy.java|780|784|init|method|net.oskyedz.stickyNote.init.ModBlocks|init|()V
-      @|net\oskyedz\stickyNote\CommonProxy.java|801|809|ModItems|class|net.oskyedz.stickyNote.init.ModItems
-      @|net\oskyedz\stickyNote\CommonProxy.java|810|814|init|method|net.oskyedz.stickyNote.init.ModItems|init|()V
+      @|net\oskyedz\stickyNote\CommonProxy.java|517|522|event|param|net.oskyedz.stickyNote.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\oskyedz\stickyNote\CommonProxy.java|483|490|preInit|method|net.oskyedz.stickyNote.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\oskyedz\stickyNote\CommonProxy.java|491|516|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\oskyedz\stickyNote\CommonProxy.java|634|643|ModBlocks|class|net.oskyedz.stickyNote.init.ModBlocks
+      @|net\oskyedz\stickyNote\CommonProxy.java|644|648|init|method|net.oskyedz.stickyNote.init.ModBlocks|init|()V
+      @|net\oskyedz\stickyNote\CommonProxy.java|665|673|ModItems|class|net.oskyedz.stickyNote.init.ModItems
+      @|net\oskyedz\stickyNote\CommonProxy.java|674|678|init|method|net.oskyedz.stickyNote.init.ModItems|init|()V
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|net\oskyedz\stickyNote\CommonProxy.java|873|878|event|param|net.oskyedz.stickyNote.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|net\oskyedz\stickyNote\CommonProxy.java|845|849|init|method|net.oskyedz.stickyNote.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|net\oskyedz\stickyNote\CommonProxy.java|850|872|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|net\oskyedz\stickyNote\CommonProxy.java|1098|1107|ModBlocks|class|net.oskyedz.stickyNote.init.ModBlocks
-      @|net\oskyedz\stickyNote\CommonProxy.java|1108|1119|initRecipes|method|net.oskyedz.stickyNote.init.ModBlocks|initRecipes|()V
-      @|net\oskyedz\stickyNote\CommonProxy.java|1125|1133|ModItems|class|net.oskyedz.stickyNote.init.ModItems
-      @|net\oskyedz\stickyNote\CommonProxy.java|1134|1145|initRecipes|method|net.oskyedz.stickyNote.init.ModItems|initRecipes|()V
+      @|net\oskyedz\stickyNote\CommonProxy.java|737|742|event|param|net.oskyedz.stickyNote.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\oskyedz\stickyNote\CommonProxy.java|709|713|init|method|net.oskyedz.stickyNote.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\oskyedz\stickyNote\CommonProxy.java|714|736|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\oskyedz\stickyNote\CommonProxy.java|962|971|ModBlocks|class|net.oskyedz.stickyNote.init.ModBlocks
+      @|net\oskyedz\stickyNote\CommonProxy.java|972|983|initRecipes|method|net.oskyedz.stickyNote.init.ModBlocks|initRecipes|()V
+      @|net\oskyedz\stickyNote\CommonProxy.java|989|997|ModItems|class|net.oskyedz.stickyNote.init.ModItems
+      @|net\oskyedz\stickyNote\CommonProxy.java|998|1009|initRecipes|method|net.oskyedz.stickyNote.init.ModItems|initRecipes|()V
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|net\oskyedz\stickyNote\CommonProxy.java|1203|1208|event|param|net.oskyedz.stickyNote.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
-      @|net\oskyedz\stickyNote\CommonProxy.java|1167|1175|postInit|method|net.oskyedz.stickyNote.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|net\oskyedz\stickyNote\CommonProxy.java|1176|1202|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|net\oskyedz\stickyNote\CommonProxy.java|1067|1072|event|param|net.oskyedz.stickyNote.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|net\oskyedz\stickyNote\CommonProxy.java|1031|1039|postInit|method|net.oskyedz.stickyNote.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|net\oskyedz\stickyNote\CommonProxy.java|1040|1066|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
 Class End  : net.oskyedz.stickyNote.CommonProxy
 endProcessing "net\oskyedz\stickyNote\CommonProxy.java"
 
-startProcessing "net\oskyedz\stickyNote\block\BlockStickyNote.java" md5: c8e722b345d024c2ffd381f9087d9273
-Cache Hit!
+startProcessing "net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java" md5: 72108b2016a3d4ce9002c0ba56b65e43
+@|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|8|34|net.oskyedz.stickyNote.GUI|package|net.oskyedz.stickyNote.GUI|(file)
+Class Start: net.oskyedz.stickyNote.GUI.GuiBlockStickyNote
+   @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|288|306|GuiBlockStickyNote|class|net.oskyedz.stickyNote.GUI.GuiBlockStickyNote
+   @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|315|327|GuiContainer|class|net.minecraft.client.gui.inventory.GuiContainer
+   Method Start: GuiBlockStickyNote(Lnet/minecraft/inventory/Container;)V
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|368|384|inventorySlotsIn|param|net.oskyedz.stickyNote.GUI.GuiBlockStickyNote|GuiBlockStickyNote|(Lnet/minecraft/inventory/Container;)V|inventorySlotsIn|0
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|339|357|GuiBlockStickyNote|method|net.oskyedz.stickyNote.GUI.GuiBlockStickyNote|GuiBlockStickyNote|(Lnet/minecraft/inventory/Container;)V
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|358|367|Container|class|net.minecraft.inventory.Container
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|396|412|inventorySlotsIn|param|net.oskyedz.stickyNote.GUI.GuiBlockStickyNote|GuiBlockStickyNote|(Lnet/minecraft/inventory/Container;)V|inventorySlotsIn|0
+   Method End: GuiBlockStickyNote(Lnet/minecraft/inventory/Container;)V
+   Method Start: drawGuiContainerBackgroundLayer(FII)V
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|526|538|partialTicks|param|net.oskyedz.stickyNote.GUI.GuiBlockStickyNote|drawGuiContainerBackgroundLayer|(FII)V|partialTicks|0
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|547|553|mouseX|param|net.oskyedz.stickyNote.GUI.GuiBlockStickyNote|drawGuiContainerBackgroundLayer|(FII)V|mouseX|1
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|559|565|mouseY|param|net.oskyedz.stickyNote.GUI.GuiBlockStickyNote|drawGuiContainerBackgroundLayer|(FII)V|mouseY|2
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|463|471|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|488|519|drawGuiContainerBackgroundLayer|method|net.minecraft.client.gui.inventory.GuiContainer|drawGuiContainerBackgroundLayer|(FII)V
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|572|586|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|587|592|color|method|net.minecraft.client.renderer.GlStateManager|color|(FFFF)V
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|625|627|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|628|645|getTextureManager|method|net.minecraft.client.Minecraft|getTextureManager|()Lnet/minecraft/client/renderer/texture/TextureManager;
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|648|659|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|669|685|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|686|696|stickyNote|class|net.oskyedz.stickyNote.stickyNote
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|697|703|MOD_ID|field|net.oskyedz.stickyNote.stickyNote|MOD_ID
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|772|793|drawTexturedModalRect|method|net.minecraft.client.gui.Gui|drawTexturedModalRect|(IIIIII)V
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|799|806|guiLeft|field|net.minecraft.client.gui.inventory.GuiContainer|guiLeft
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|813|819|guiTop|field|net.minecraft.client.gui.inventory.GuiContainer|guiTop
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|832|837|xSize|field|net.minecraft.client.gui.inventory.GuiContainer|xSize
+      @|net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java|848|853|ySize|field|net.minecraft.client.gui.inventory.GuiContainer|ySize
+   Method End: drawGuiContainerBackgroundLayer(FII)V
+Class End  : net.oskyedz.stickyNote.GUI.GuiBlockStickyNote
+endProcessing "net\oskyedz\stickyNote\GUI\GuiBlockStickyNote.java"
+
+startProcessing "net\oskyedz\stickyNote\GUI\GuiHandler.java" md5: 0bead8037a4d63a8e8a0f10cb87bf86f
+@|net\oskyedz\stickyNote\GUI\GuiHandler.java|8|34|net.oskyedz.stickyNote.GUI|package|net.oskyedz.stickyNote.GUI|(file)
+Class Start: net.oskyedz.stickyNote.GUI.GuiHandler
+   @|net\oskyedz\stickyNote\GUI\GuiHandler.java|192|202|GuiHandler|class|net.oskyedz.stickyNote.GUI.GuiHandler
+   @|net\oskyedz\stickyNote\GUI\GuiHandler.java|214|225|IGuiHandler|class|net.minecraftforge.fml.common.network.IGuiHandler
+   @|net\oskyedz\stickyNote\GUI\GuiHandler.java|254|266|STICKY_BLOCK|field|net.oskyedz.stickyNote.GUI.GuiHandler|STICKY_BLOCK|
+   Method Start: getServerGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|323|325|ID|param|net.oskyedz.stickyNote.GUI.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|ID|0
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|340|346|player|param|net.oskyedz.stickyNote.GUI.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|354|359|world|param|net.oskyedz.stickyNote.GUI.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|368|369|x|param|net.oskyedz.stickyNote.GUI.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|375|376|y|param|net.oskyedz.stickyNote.GUI.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|382|383|z|param|net.oskyedz.stickyNote.GUI.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|275|283|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|292|298|Object|class|java.lang.Object
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|299|318|getServerGuiElement|method|net.minecraftforge.fml.common.network.IGuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|327|339|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|348|353|World|class|net.minecraft.world.World
+   Method End: getServerGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+   Method Start: getClientGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|493|495|ID|param|net.oskyedz.stickyNote.GUI.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|ID|0
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|510|516|player|param|net.oskyedz.stickyNote.GUI.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|524|529|world|param|net.oskyedz.stickyNote.GUI.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|538|539|x|param|net.oskyedz.stickyNote.GUI.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|545|546|y|param|net.oskyedz.stickyNote.GUI.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|552|553|z|param|net.oskyedz.stickyNote.GUI.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|445|453|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|462|468|Object|class|java.lang.Object
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|469|488|getClientGuiElement|method|net.minecraftforge.fml.common.network.IGuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|497|509|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|net\oskyedz\stickyNote\GUI\GuiHandler.java|518|523|World|class|net.minecraft.world.World
+   Method End: getClientGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+Class End  : net.oskyedz.stickyNote.GUI.GuiHandler
+endProcessing "net\oskyedz\stickyNote\GUI\GuiHandler.java"
+
+startProcessing "net\oskyedz\stickyNote\block\BlockStickyNote.java" md5: 0d76491238748cdefa2bc5a66ca27a48
 @|net\oskyedz\stickyNote\block\BlockStickyNote.java|8|36|net.oskyedz.stickyNote.block|package|net.oskyedz.stickyNote.block|(file)
 Class Start: net.oskyedz.stickyNote.block.BlockStickyNote
-   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|510|525|BlockStickyNote|class|net.oskyedz.stickyNote.block.BlockStickyNote
-   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|534|539|Block|class|net.minecraft.block.Block
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1298|1313|BlockStickyNote|class|net.oskyedz.stickyNote.block.BlockStickyNote
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1322|1327|Block|class|net.minecraft.block.Block
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1352|1364|PropertyBool|class|net.minecraft.block.properties.PropertyBool
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1352|1364|PropertyBool|class|net.minecraft.block.properties.PropertyBool
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1365|1374|ACTIVATED|field|net.oskyedz.stickyNote.block.BlockStickyNote|ACTIVATED|
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1377|1389|PropertyBool|class|net.minecraft.block.properties.PropertyBool
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1394|1400|create|method|net.minecraft.block.properties.PropertyBool|create|(Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyBool;
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1436|1453|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1436|1453|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1454|1460|FACING|field|net.oskyedz.stickyNote.block.BlockStickyNote|FACING|
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1463|1480|PropertyDirection|class|net.minecraft.block.properties.PropertyDirection
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1485|1491|create|method|net.minecraft.block.properties.PropertyDirection|create|(Ljava/lang/String;)Lnet/minecraft/block/properties/PropertyDirection;
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1524|1536|PropertyEnum|class|net.minecraft.block.properties.PropertyEnum
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1524|1536|PropertyEnum|class|net.minecraft.block.properties.PropertyEnum
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1537|1541|TYPE|field|net.oskyedz.stickyNote.block.BlockStickyNote|TYPE|
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1544|1556|PropertyEnum|class|net.minecraft.block.properties.PropertyEnum
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1557|1563|create|method|net.minecraft.block.properties.PropertyEnum|create|(Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/block/properties/PropertyEnum;
+   @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1575|1590|StickyNoteTypes|class|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
    Method Start: BlockStickyNote()V
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|551|566|BlockStickyNote|method|net.oskyedz.stickyNote.block.BlockStickyNote|BlockStickyNote|()V
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|580|588|Material|class|net.minecraft.block.material.Material
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|589|593|WOOD|field|net.minecraft.block.material.Material|WOOD
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|639|650|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|768|781|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|821|833|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|834|843|SoundType|class|net.minecraft.block.SoundType
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|844|850|LADDER|field|net.minecraft.block.SoundType|LADDER
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|926|941|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1253|1267|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1268|1278|stickyNote|class|net.oskyedz.stickyNote.stickyNote
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1279|1292|tabStickyNote|field|net.oskyedz.stickyNote.stickyNote|tabStickyNote
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1608|1623|BlockStickyNote|method|net.oskyedz.stickyNote.block.BlockStickyNote|BlockStickyNote|()V
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1637|1645|Material|class|net.minecraft.block.material.Material
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1646|1650|WOOD|field|net.minecraft.block.material.Material|WOOD
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1696|1707|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1825|1838|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1878|1890|setSoundType|method|net.minecraft.block.Block|setSoundType|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1891|1900|SoundType|class|net.minecraft.block.SoundType
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1901|1907|LADDER|field|net.minecraft.block.SoundType|LADDER
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1983|1998|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2310|2324|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2325|2335|stickyNote|class|net.oskyedz.stickyNote.stickyNote
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2336|2349|tabStickyNote|field|net.oskyedz.stickyNote.stickyNote|tabStickyNote
    Method End: BlockStickyNote()V
    Method Start: addRecipes()V
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|1360|1370|addRecipes|method|net.oskyedz.stickyNote.block.BlockStickyNote|addRecipes|()V
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2684|2696|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2697|2712|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2717|2726|ItemStack|class|net.minecraft.item.ItemStack
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2768|2774|Blocks|class|net.minecraft.init.Blocks
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2775|2781|LADDER|field|net.minecraft.init.Blocks|LADDER
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2792|2801|ItemStack|class|net.minecraft.item.ItemStack
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2802|2808|Blocks|class|net.minecraft.init.Blocks
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2809|2813|WOOL|field|net.minecraft.init.Blocks|WOOL
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2824|2837|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2838|2852|WILDCARD_VALUE|field|net.minecraftforge.oredict.OreDictionary|WILDCARD_VALUE
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2859|2871|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2872|2881|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/crafting/IRecipe;)V
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2886|2901|ShapedOreRecipe|class|net.minecraftforge.oredict.ShapedOreRecipe
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2906|2915|ItemStack|class|net.minecraft.item.ItemStack
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2957|2963|Blocks|class|net.minecraft.init.Blocks
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2964|2970|LADDER|field|net.minecraft.init.Blocks|LADDER
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2977|2983|Blocks|class|net.minecraft.init.Blocks
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2984|2988|WOOL|field|net.minecraft.init.Blocks|WOOL
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|2417|2427|addRecipes|method|net.oskyedz.stickyNote.block.BlockStickyNote|addRecipes|()V
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3741|3753|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3754|3769|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3774|3783|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3825|3831|Blocks|class|net.minecraft.init.Blocks
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3832|3838|LADDER|field|net.minecraft.init.Blocks|LADDER
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3849|3858|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3859|3865|Blocks|class|net.minecraft.init.Blocks
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3866|3870|WOOL|field|net.minecraft.init.Blocks|WOOL
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3881|3894|OreDictionary|class|net.minecraftforge.oredict.OreDictionary
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3895|3909|WILDCARD_VALUE|field|net.minecraftforge.oredict.OreDictionary|WILDCARD_VALUE
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3916|3928|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3929|3938|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/crafting/IRecipe;)V
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3943|3958|ShapedOreRecipe|class|net.minecraftforge.oredict.ShapedOreRecipe
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3963|3972|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4014|4020|Blocks|class|net.minecraft.init.Blocks
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4021|4027|LADDER|field|net.minecraft.init.Blocks|LADDER
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4034|4040|Blocks|class|net.minecraft.init.Blocks
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4041|4045|WOOL|field|net.minecraft.init.Blocks|WOOL
    Method End: addRecipes()V
    Method Start: getUnlocalizedName()Ljava/lang/String;
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3019|3027|Override|class|java.lang.Override
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3036|3042|String|class|java.lang.String
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3043|3061|getUnlocalizedName|method|net.minecraft.block.Block|getUnlocalizedName|()Ljava/lang/String;
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3086|3096|stickyNote|class|net.oskyedz.stickyNote.stickyNote
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3097|3111|RESOURCEPREFIX|field|net.oskyedz.stickyNote.stickyNote|RESOURCEPREFIX
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3114|3119|Names|class|net.oskyedz.stickyNote.lib.Names
-      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|3120|3132|STICKY_BLOCK|field|net.oskyedz.stickyNote.lib.Names|STICKY_BLOCK
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4076|4084|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4093|4099|String|class|java.lang.String
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4100|4118|getUnlocalizedName|method|net.minecraft.block.Block|getUnlocalizedName|()Ljava/lang/String;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4143|4153|stickyNote|class|net.oskyedz.stickyNote.stickyNote
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4154|4168|RESOURCEPREFIX|field|net.oskyedz.stickyNote.stickyNote|RESOURCEPREFIX
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4171|4176|Names|class|net.oskyedz.stickyNote.lib.Names
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4177|4189|STICKY_BLOCK|field|net.oskyedz.stickyNote.lib.Names|STICKY_BLOCK
    Method End: getUnlocalizedName()Ljava/lang/String;
+   Method Start: BlockStickyNote(Ljava/lang/String;)V
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4262|4277|unlocalizedName|param|net.oskyedz.stickyNote.block.BlockStickyNote|BlockStickyNote|(Ljava/lang/String;)V|unlocalizedName|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4239|4254|BlockStickyNote|method|net.oskyedz.stickyNote.block.BlockStickyNote|BlockStickyNote|(Ljava/lang/String;)V
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4255|4261|String|class|java.lang.String
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4289|4297|Material|class|net.minecraft.block.material.Material
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4298|4302|WOOD|field|net.minecraft.block.material.Material|WOOD
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4312|4327|setDefaultState|method|net.minecraft.block.Block|setDefaultState|(Lnet/minecraft/block/state/IBlockState;)V
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4333|4343|blockState|field|net.minecraft.block.Block|blockState
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4344|4356|getBaseState|method|net.minecraft.block.state.BlockStateContainer|getBaseState|()Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4364|4376|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4377|4381|TYPE|field|net.oskyedz.stickyNote.block.BlockStickyNote|TYPE
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4383|4398|StickyNoteTypes|class|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4399|4404|BASIC|field|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|BASIC
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4411|4423|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4424|4430|FACING|field|net.oskyedz.stickyNote.block.BlockStickyNote|FACING
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4432|4442|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4443|4448|NORTH|field|net.minecraft.util.EnumFacing|NORTH
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4455|4467|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4468|4477|ACTIVATED|field|net.oskyedz.stickyNote.block.BlockStickyNote|ACTIVATED
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4479|4486|Boolean|class|java.lang.Boolean
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4487|4494|valueOf|method|java.lang.Boolean|valueOf|(Z)Ljava/lang/Boolean;
+   Method End: BlockStickyNote(Ljava/lang/String;)V
+   Method Start: hasComparatorInputOverride(Lnet/minecraft/block/state/IBlockState;)Z
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4575|4580|state|param|net.oskyedz.stickyNote.block.BlockStickyNote|hasComparatorInputOverride|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4511|4519|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4536|4562|hasComparatorInputOverride|method|net.minecraft.block.Block|hasComparatorInputOverride|(Lnet/minecraft/block/state/IBlockState;)Z
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4563|4574|IBlockState|class|net.minecraft.block.state.IBlockState
+   Method End: hasComparatorInputOverride(Lnet/minecraft/block/state/IBlockState;)Z
+   Method Start: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4652|4660|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4672|4691|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4692|4708|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4726|4745|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4756|4765|IProperty|class|net.minecraft.block.properties.IProperty
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4770|4774|TYPE|field|net.oskyedz.stickyNote.block.BlockStickyNote|TYPE
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4776|4782|FACING|field|net.oskyedz.stickyNote.block.BlockStickyNote|FACING
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4788|4797|ACTIVATED|field|net.oskyedz.stickyNote.block.BlockStickyNote|ACTIVATED
+   Method End: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+   Method Start: canConnectRedstone(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4904|4909|state|param|net.oskyedz.stickyNote.block.BlockStickyNote|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|state|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4924|4929|world|param|net.oskyedz.stickyNote.block.BlockStickyNote|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|world|1
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4943|4946|pos|param|net.oskyedz.stickyNote.block.BlockStickyNote|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|pos|2
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4959|4963|side|param|net.oskyedz.stickyNote.block.BlockStickyNote|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|side|3
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4848|4856|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4873|4891|canConnectRedstone|method|net.minecraft.block.Block|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4892|4903|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4911|4923|IBlockAccess|class|net.minecraft.world.IBlockAccess
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4934|4942|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4948|4958|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4976|4980|side|param|net.oskyedz.stickyNote.block.BlockStickyNote|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|side|3
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4984|4994|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|4995|4997|UP|field|net.minecraft.util.EnumFacing|UP
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5001|5005|side|param|net.oskyedz.stickyNote.block.BlockStickyNote|canConnectRedstone|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z|side|3
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5009|5019|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5020|5024|DOWN|field|net.minecraft.util.EnumFacing|DOWN
+   Method End: canConnectRedstone(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+   Method Start: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5356|5361|world|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|world|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5372|5375|pos|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5391|5397|facing|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|facing|2
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5405|5409|hitX|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|hitX|3
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5417|5421|hitY|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|hitY|4
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5429|5433|hitZ|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|hitZ|5
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5439|5443|meta|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|meta|6
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5465|5471|placer|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5482|5486|hand|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|hand|8
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5300|5308|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5317|5328|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5329|5349|getStateForPlacement|method|net.minecraft.block.Block|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5350|5355|World|class|net.minecraft.world.World
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5363|5371|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5380|5390|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5448|5464|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5473|5481|EnumHand|class|net.minecraft.util.EnumHand
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5509|5524|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5532|5544|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5545|5551|FACING|field|net.oskyedz.stickyNote.block.BlockStickyNote|FACING
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5559|5569|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5570|5598|getDirectionFromEntityLiving|method|net.minecraft.util.EnumFacing|getDirectionFromEntityLiving|(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/EnumFacing;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5599|5602|pos|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|pos|1
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5604|5610|placer|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|placer|7
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5618|5630|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5631|5640|ACTIVATED|field|net.oskyedz.stickyNote.block.BlockStickyNote|ACTIVATED
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5642|5649|Boolean|class|java.lang.Boolean
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5650|5657|valueOf|method|java.lang.Boolean|valueOf|(Z)Ljava/lang/Boolean;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5671|5683|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5691|5695|TYPE|field|net.oskyedz.stickyNote.block.BlockStickyNote|TYPE
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5703|5719|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5720|5724|meta|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateForPlacement|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;|meta|6
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5727|5737|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5738|5744|values|method|net.minecraft.util.EnumFacing|values|()[Lnet/minecraft/util/EnumFacing;
+      Field: Array Length, skipping
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5764|5772|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5773|5777|TYPE|field|net.oskyedz.stickyNote.block.BlockStickyNote|TYPE
+   Method End: getStateForPlacement(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5959|5964|state|param|net.oskyedz.stickyNote.block.BlockStickyNote|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5909|5917|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5930|5946|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5947|5958|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5970|5985|StickyNoteTypes|class|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|5994|6009|StickyNoteTypes|class|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6011|6016|state|param|net.oskyedz.stickyNote.block.BlockStickyNote|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6017|6025|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6026|6030|TYPE|field|net.oskyedz.stickyNote.block.BlockStickyNote|TYPE
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6035|6045|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6056|6066|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6068|6073|state|param|net.oskyedz.stickyNote.block.BlockStickyNote|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6074|6082|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6083|6089|FACING|field|net.oskyedz.stickyNote.block.BlockStickyNote|FACING
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6110|6115|getID|method|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|getID|()I
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6120|6130|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6131|6137|values|method|net.minecraft.util.EnumFacing|values|()[Lnet/minecraft/util/EnumFacing;
+      Field: Array Length, skipping
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6156|6163|ordinal|method|java.lang.Enum|ordinal|()I
+   Method End: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
+   Method Start: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6501|6505|meta|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6451|6459|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6468|6479|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6480|6496|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6511|6526|StickyNoteTypes|class|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6534|6549|StickyNoteTypes|class|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6550|6556|values|method|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|values|()[Lnet/oskyedz/stickyNote/handlers/EnumHandler$StickyNoteTypes;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6566|6570|meta|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6573|6583|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6589|6595|values|method|net.minecraft.util.EnumFacing|values|()[Lnet/minecraft/util/EnumFacing;
+      Field: Array Length, skipping
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6608|6623|StickyNoteTypes|class|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6624|6630|values|method|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|values|()[Lnet/oskyedz/stickyNote/handlers/EnumHandler$StickyNoteTypes;
+      Field: Array Length, skipping
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6780|6790|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6800|6810|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6811|6817|values|method|net.minecraft.util.EnumFacing|values|()[Lnet/minecraft/util/EnumFacing;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6820|6824|meta|param|net.oskyedz.stickyNote.block.BlockStickyNote|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6831|6841|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6842|6848|values|method|net.minecraft.util.EnumFacing|values|()[Lnet/minecraft/util/EnumFacing;
+      Field: Array Length, skipping
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6926|6941|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6944|6956|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6957|6961|TYPE|field|net.oskyedz.stickyNote.block.BlockStickyNote|TYPE
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6974|6986|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|6987|6993|FACING|field|net.oskyedz.stickyNote.block.BlockStickyNote|FACING
+   Method End: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
+   Method Start: getPickBlock(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7184|7189|state|param|net.oskyedz.stickyNote.block.BlockStickyNote|getPickBlock|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;|state|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7206|7212|target|param|net.oskyedz.stickyNote.block.BlockStickyNote|getPickBlock|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;|target|1
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7223|7228|world|param|net.oskyedz.stickyNote.block.BlockStickyNote|getPickBlock|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;|world|2
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7239|7242|pos|param|net.oskyedz.stickyNote.block.BlockStickyNote|getPickBlock|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;|pos|3
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7257|7263|player|param|net.oskyedz.stickyNote.block.BlockStickyNote|getPickBlock|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;|player|4
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7132|7140|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7149|7158|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7159|7171|getPickBlock|method|net.minecraft.block.Block|getPickBlock|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7172|7183|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7191|7205|RayTraceResult|class|net.minecraft.util.math.RayTraceResult
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7217|7222|World|class|net.minecraft.world.World
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7230|7238|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7244|7256|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7280|7289|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7290|7294|Item|class|net.minecraft.item.Item
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7295|7311|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7333|7349|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7350|7355|world|param|net.oskyedz.stickyNote.block.BlockStickyNote|getPickBlock|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;|world|2
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7356|7369|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7370|7373|pos|param|net.oskyedz.stickyNote.block.BlockStickyNote|getPickBlock|(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;|pos|3
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7378|7388|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7396|7402|values|method|net.minecraft.util.EnumFacing|values|()[Lnet/minecraft/util/EnumFacing;
+      Field: Array Length, skipping
+   Method End: getPickBlock(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/RayTraceResult;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;
+   Method Start: damageDropped(Lnet/minecraft/block/state/IBlockState;)I
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7549|7554|state|param|net.oskyedz.stickyNote.block.BlockStickyNote|damageDropped|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7502|7510|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7523|7536|damageDropped|method|net.minecraft.block.Block|damageDropped|(Lnet/minecraft/block/state/IBlockState;)I
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7537|7548|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7574|7590|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7591|7596|state|param|net.oskyedz.stickyNote.block.BlockStickyNote|damageDropped|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7600|7610|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7611|7617|values|method|net.minecraft.util.EnumFacing|values|()[Lnet/minecraft/util/EnumFacing;
+      Field: Array Length, skipping
+   Method End: damageDropped(Lnet/minecraft/block/state/IBlockState;)I
+   Method Start: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7761|7768|worldIn|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7779|7782|pos|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7799|7804|state|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|state|2
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7819|7827|playerIn|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7838|7842|hand|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hand|4
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7858|7866|heldItem|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|heldItem|5
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7874|7878|side|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|side|6
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7886|7890|hitX|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitX|7
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7898|7902|hitY|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|hitY|8
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7713|7721|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7738|7754|onBlockActivated|method|net.minecraft.block.Block|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7755|7760|World|class|net.minecraft.world.World
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7770|7778|BlockPos|class|net.minecraft.util.math.BlockPos
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7787|7798|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7806|7818|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7829|7837|EnumHand|class|net.minecraft.util.EnumHand
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7847|7857|EnumFacing|class|net.minecraft.util.EnumFacing
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7913|7920|worldIn|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7921|7929|isRemote|field|net.minecraft.world.World|isRemote
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7936|7944|playerIn|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|playerIn|3
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7945|7952|openGui|method|net.minecraft.entity.player.EntityPlayer|openGui|(Ljava/lang/Object;ILnet/minecraft/world/World;III)V
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7953|7963|stickyNote|class|net.oskyedz.stickyNote.stickyNote
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7964|7972|instance|field|net.oskyedz.stickyNote.stickyNote|instance
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7974|7984|GuiHandler|class|net.oskyedz.stickyNote.GUI.GuiHandler
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|7985|7997|STICKY_BLOCK|field|net.oskyedz.stickyNote.GUI.GuiHandler|STICKY_BLOCK
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|8004|8011|worldIn|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|worldIn|0
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|8013|8016|pos|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|8017|8021|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|8025|8028|pos|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|8029|8033|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|8037|8040|pos|param|net.oskyedz.stickyNote.block.BlockStickyNote|onBlockActivated|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z|pos|1
+      @|net\oskyedz\stickyNote\block\BlockStickyNote.java|8041|8045|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+   Method End: onBlockActivated(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Z
 Class End  : net.oskyedz.stickyNote.block.BlockStickyNote
 endProcessing "net\oskyedz\stickyNote\block\BlockStickyNote.java"
+
+startProcessing "net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java" md5: 463f455b90d10be54d348f227d66b67b
+@|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|8|46|net.oskyedz.stickyNote.container.slots|package|net.oskyedz.stickyNote.container.slots|(file)
+Class Start: net.oskyedz.stickyNote.container.slots.SlotEnchantedBook
+   @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|228|245|SlotEnchantedBook|class|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook
+   @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|254|269|SlotItemHandler|class|net.minecraftforge.items.SlotItemHandler
+   Method Start: SlotEnchantedBook(Lnet/minecraftforge/items/IItemHandler;III)V
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|312|323|itemHandler|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|SlotEnchantedBook|(Lnet/minecraftforge/items/IItemHandler;III)V|itemHandler|0
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|329|334|index|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|SlotEnchantedBook|(Lnet/minecraftforge/items/IItemHandler;III)V|index|1
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|343|352|xPosition|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|SlotEnchantedBook|(Lnet/minecraftforge/items/IItemHandler;III)V|xPosition|2
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|358|367|yPosition|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|SlotEnchantedBook|(Lnet/minecraftforge/items/IItemHandler;III)V|yPosition|3
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|281|298|SlotEnchantedBook|method|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|SlotEnchantedBook|(Lnet/minecraftforge/items/IItemHandler;III)V
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|299|311|IItemHandler|class|net.minecraftforge.items.IItemHandler
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|379|390|itemHandler|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|SlotEnchantedBook|(Lnet/minecraftforge/items/IItemHandler;III)V|itemHandler|0
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|392|397|index|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|SlotEnchantedBook|(Lnet/minecraftforge/items/IItemHandler;III)V|index|1
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|399|408|xPosition|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|SlotEnchantedBook|(Lnet/minecraftforge/items/IItemHandler;III)V|xPosition|2
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|410|419|yPosition|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|SlotEnchantedBook|(Lnet/minecraftforge/items/IItemHandler;III)V|yPosition|3
+   Method End: SlotEnchantedBook(Lnet/minecraftforge/items/IItemHandler;III)V
+   Method Start: isItemValid(Lnet/minecraft/item/ItemStack;)Z
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|475|480|stack|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|428|436|Override|class|java.lang.Override
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|453|464|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|465|474|ItemStack|class|net.minecraft.item.ItemStack
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|499|510|isItemValid|method|net.minecraft.inventory.Slot|isItemValid|(Lnet/minecraft/item/ItemStack;)Z
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|511|516|stack|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|525|530|stack|param|net.oskyedz.stickyNote.container.slots.SlotEnchantedBook|isItemValid|(Lnet/minecraft/item/ItemStack;)Z|stack|0
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|531|538|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|544|549|Items|class|net.minecraft.init.Items
+      @|net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java|550|564|ENCHANTED_BOOK|field|net.minecraft.init.Items|ENCHANTED_BOOK
+   Method End: isItemValid(Lnet/minecraft/item/ItemStack;)Z
+Class End  : net.oskyedz.stickyNote.container.slots.SlotEnchantedBook
+endProcessing "net\oskyedz\stickyNote\container\slots\SlotEnchantedBook.java"
+
+startProcessing "net\oskyedz\stickyNote\handlers\EnumHandler.java" md5: d8cb831ec5b24bab161cf9d391e6d512
+@|net\oskyedz\stickyNote\handlers\EnumHandler.java|8|39|net.oskyedz.stickyNote.handlers|package|net.oskyedz.stickyNote.handlers|(file)
+Class Start: net.oskyedz.stickyNote.handlers.EnumHandler
+   @|net\oskyedz\stickyNote\handlers\EnumHandler.java|264|275|EnumHandler|class|net.oskyedz.stickyNote.handlers.EnumHandler
+   Enum Start: net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|418|433|StickyNoteTypes|class|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|445|464|IStringSerializable|class|net.minecraft.util.IStringSerializable
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|469|474|BASIC|field|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|BASIC
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|488|496|ADVANCED|field|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|ADVANCED
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|528|530|ID|field|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|ID|
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|542|548|String|class|java.lang.String
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|542|548|String|class|java.lang.String
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|549|553|name|field|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|name|
+      Method Start: StickyNoteTypes(Ljava/lang/String;I)V
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|589|593|name|param|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|StickyNoteTypes|(Ljava/lang/String;I)V|name|0
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|599|601|ID|param|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|StickyNoteTypes|(Ljava/lang/String;I)V|ID|1
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|566|581|StickyNoteTypes|method|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|StickyNoteTypes|(Ljava/lang/String;I)V
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|582|588|String|class|java.lang.String
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|613|615|ID|field|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|ID
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|618|620|ID|param|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|StickyNoteTypes|(Ljava/lang/String;I)V|ID|1
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|630|634|name|field|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|name
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|637|641|name|param|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|StickyNoteTypes|(Ljava/lang/String;I)V|name|0
+      Method End: StickyNoteTypes(Ljava/lang/String;I)V
+      Method Start: getName()Ljava/lang/String;
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|651|659|Override|class|java.lang.Override
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|669|675|String|class|java.lang.String
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|676|683|getName|method|net.minecraft.util.IStringSerializable|getName|()Ljava/lang/String;
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|703|707|name|field|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|name
+      Method End: getName()Ljava/lang/String;
+      Method Start: getID()I
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|727|732|getID|method|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|getID|()I
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|747|749|ID|field|net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes|ID
+      Method End: getID()I
+      Method Start: toString()Ljava/lang/String;
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|759|767|Override|class|java.lang.Override
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|777|783|String|class|java.lang.String
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|784|792|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|807|814|getName|method|net.minecraft.util.IStringSerializable|getName|()Ljava/lang/String;
+      Method End: toString()Ljava/lang/String;
+   Enum End  : net.oskyedz.stickyNote.handlers.EnumHandler.StickyNoteTypes
+   Enum Start: net.oskyedz.stickyNote.handlers.EnumHandler.OreType
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|930|937|OreType|class|net.oskyedz.stickyNote.handlers.EnumHandler.OreType
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|949|968|IStringSerializable|class|net.minecraft.util.IStringSerializable
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|973|982|OVERWORLD|field|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|OVERWORLD
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1000|1006|NETHER|field|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|NETHER
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1021|1024|END|field|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|END
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1051|1053|ID|field|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|ID|
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1065|1071|String|class|java.lang.String
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1065|1071|String|class|java.lang.String
+      @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1072|1076|name|field|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|name|
+      Method Start: OreType(Ljava/lang/String;I)V
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1104|1108|name|param|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|OreType|(Ljava/lang/String;I)V|name|0
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1114|1116|ID|param|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|OreType|(Ljava/lang/String;I)V|ID|1
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1089|1096|OreType|method|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|OreType|(Ljava/lang/String;I)V
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1097|1103|String|class|java.lang.String
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1128|1130|ID|field|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|ID
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1133|1135|ID|param|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|OreType|(Ljava/lang/String;I)V|ID|1
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1145|1149|name|field|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|name
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1152|1156|name|param|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|OreType|(Ljava/lang/String;I)V|name|0
+      Method End: OreType(Ljava/lang/String;I)V
+      Method Start: getName()Ljava/lang/String;
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1166|1174|Override|class|java.lang.Override
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1184|1190|String|class|java.lang.String
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1191|1198|getName|method|net.minecraft.util.IStringSerializable|getName|()Ljava/lang/String;
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1218|1222|name|field|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|name
+      Method End: getName()Ljava/lang/String;
+      Method Start: getID()I
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1242|1247|getID|method|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|getID|()I
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1262|1264|ID|field|net.oskyedz.stickyNote.handlers.EnumHandler.OreType|ID
+      Method End: getID()I
+      Method Start: toString()Ljava/lang/String;
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1274|1282|Override|class|java.lang.Override
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1292|1298|String|class|java.lang.String
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1299|1307|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+         @|net\oskyedz\stickyNote\handlers\EnumHandler.java|1322|1329|getName|method|net.minecraft.util.IStringSerializable|getName|()Ljava/lang/String;
+      Method End: toString()Ljava/lang/String;
+   Enum End  : net.oskyedz.stickyNote.handlers.EnumHandler.OreType
+Class End  : net.oskyedz.stickyNote.handlers.EnumHandler
+endProcessing "net\oskyedz\stickyNote\handlers\EnumHandler.java"
 
 startProcessing "net\oskyedz\stickyNote\init\ModBlocks.java" md5: 4d9c93ed2b95c2a72e58449e28f3136c
 Cache Hit!
@@ -296,8 +710,7 @@ Class Start: net.oskyedz.stickyNote.item.ItemStickyNote
 Class End  : net.oskyedz.stickyNote.item.ItemStickyNote
 endProcessing "net\oskyedz\stickyNote\item\ItemStickyNote.java"
 
-startProcessing "net\oskyedz\stickyNote\lib\Names.java" md5: addf42b87e706b71e73d2b3d7d5efc70
-Cache Hit!
+startProcessing "net\oskyedz\stickyNote\lib\Names.java" md5: e872b46a408fd92c7f40f93363f20d38
 @|net\oskyedz\stickyNote\lib\Names.java|8|34|net.oskyedz.stickyNote.lib|package|net.oskyedz.stickyNote.lib|(file)
 Class Start: net.oskyedz.stickyNote.lib.Names
    @|net\oskyedz\stickyNote\lib\Names.java|284|289|Names|class|net.oskyedz.stickyNote.lib.Names
@@ -307,6 +720,9 @@ Class Start: net.oskyedz.stickyNote.lib.Names
    @|net\oskyedz\stickyNote\lib\Names.java|520|526|String|class|java.lang.String
    @|net\oskyedz\stickyNote\lib\Names.java|520|526|String|class|java.lang.String
    @|net\oskyedz\stickyNote\lib\Names.java|527|539|STICKY_BLOCK|field|net.oskyedz.stickyNote.lib.Names|STICKY_BLOCK|
+   @|net\oskyedz\stickyNote\lib\Names.java|612|618|String|class|java.lang.String
+   @|net\oskyedz\stickyNote\lib\Names.java|612|618|String|class|java.lang.String
+   @|net\oskyedz\stickyNote\lib\Names.java|619|632|STICKY_ENTITY|field|net.oskyedz.stickyNote.lib.Names|STICKY_ENTITY|
 Class End  : net.oskyedz.stickyNote.lib.Names
 endProcessing "net\oskyedz\stickyNote\lib\Names.java"
 

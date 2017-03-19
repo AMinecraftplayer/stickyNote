@@ -5,6 +5,8 @@ import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
+import net.oskyedz.stickyNote.GUI.GuiHandler;
 import net.oskyedz.stickyNote.init.ModBlocks;
 import net.oskyedz.stickyNote.init.ModItems;
 
@@ -36,6 +38,9 @@ public class ClientProxy extends CommonProxy {
 		ModBlocks.initClient(mesher); // Register block models
 
 		ModItems.initClient(mesher); // Register item models
+
+		NetworkRegistry.INSTANCE.registerGuiHandler(stickyNote.instance,
+				new GuiHandler());
 	}
 
 	@Override

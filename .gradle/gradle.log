@@ -11,18 +11,22 @@ This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril
 #################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
-:sourceApiJava UP-TO-DATE
+:sourceApiJava
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava UP-TO-DATE
+:sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: F:\Test-Developmeny-Projekt\Gymarbete\Projektmapp\source\1.11.2\stickyNote\build\sources\main\java\net\oskyedz\stickyNote\block\BlockStickyNote.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: F:\Test-Developmeny-Projekt\Gymarbete\Projektmapp\source\1.11.2\stickyNote\build\sources\main\java\net\oskyedz\stickyNote\block\BlockStickyNote.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
-:processResources UP-TO-DATE
+:processResources
 :classes
 :jar
-:sourceTestJava UP-TO-DATE
+:sourceTestJava
 :compileTestJava UP-TO-DATE
 :processTestResources UP-TO-DATE
 :testClasses UP-TO-DATE
@@ -30,7 +34,7 @@ This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril
 :extractMcpData SKIPPED
 :extractMcpMappings SKIPPED
 :getVersionJson
-:extractUserdev UP-TO-DATE
+:extractUserdev
 :genSrgs SKIPPED
 :reobfJar
 :extractRangemapReplacedMain
@@ -44,4 +48,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 13.294 secs
+Total time: 29.998 secs
