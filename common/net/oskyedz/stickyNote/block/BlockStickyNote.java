@@ -8,8 +8,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapedOreRecipe;
-import net.oskyedz.stickyNote.stickyNote;
 import net.oskyedz.stickyNote.lib.Names;
+import net.oskyedz.stickyNote.main.ModStickyNote;
 
 // Just like the item's
 
@@ -36,7 +36,7 @@ public class BlockStickyNote extends Block {
 
 		// If we don't set a creative tab, the block/item won't show up anywhere
 		// in the creative menus, but will still appear in JEI.
-		setCreativeTab(stickyNote.tabStickyNote);
+		setCreativeTab(ModStickyNote.tabStickyNote);
 
 	}
 
@@ -83,7 +83,7 @@ public class BlockStickyNote extends Block {
 	@Override
 	public String getUnlocalizedName() {
 		// tile.stickynote:stickynote_block
-		return "tile." + stickyNote.RESOURCEPREFIX + Names.STICKY_BLOCK;
+		return "tile." + ModStickyNote.RESOURCEPREFIX + Names.STICKY_BLOCK;
 	}
 
 }

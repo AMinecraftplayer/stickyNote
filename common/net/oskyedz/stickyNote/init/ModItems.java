@@ -11,9 +11,9 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import net.oskyedz.stickyNote.stickyNote;
 import net.oskyedz.stickyNote.item.ItemStickyNote;
 import net.oskyedz.stickyNote.lib.Names;
+import net.oskyedz.stickyNote.main.ModStickyNote;
 
 /**
  * This is where we handle Item registration. Typically, you should also store
@@ -43,7 +43,7 @@ public class ModItems {
 		// Initialize the item and store the reference.
 		stickyNoteItem = new ItemStickyNote();
 		// Setting the registry name is how Forge tells items apart.
-		stickyNoteItem.setRegistryName(new ResourceLocation(stickyNote.MOD_ID,
+		stickyNoteItem.setRegistryName(new ResourceLocation(ModStickyNote.MOD_ID,
 				Names.STICKY_NOTE));
 		// Finally, register the item! Must be done AFTER setting the registry
 		// name.
@@ -76,7 +76,7 @@ public class ModItems {
 		// variable for each item of course, since most Java variables just
 		// contain a reference to an object.
 		ModelResourceLocation model = new ModelResourceLocation(
-				stickyNote.RESOURCEPREFIX + Names.STICKY_NOTE, "inventory");
+				ModStickyNote.RESOURCEPREFIX + Names.STICKY_NOTE, "inventory");
 		// Here we list all models the item can possibly have. An array will
 		// work, or just list each MRL for the final
 		// parameters.
