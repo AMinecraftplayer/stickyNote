@@ -14,9 +14,9 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.oskyedz.stickyNote.stickyNote;
 import net.oskyedz.stickyNote.init.ModTileEntity;
 import net.oskyedz.stickyNote.lib.Names;
+import net.oskyedz.stickyNote.main.ModStickyNote;
 
 /**
  * A very basic item with no subtypes/variants
@@ -33,7 +33,7 @@ public class ItemStickyNote extends Item implements ITileEntityProvider, IInvent
 		// If we don't set a creative tab, the block/item won't show up anywhere
 		// in the creative menus, but will still
 		// appear in JEI.
-		setCreativeTab(stickyNote.tabStickyNote);
+		setCreativeTab(ModStickyNote.tabStickyNote);
 		// Make item render in 3D?
 		setFull3D();
 	}
@@ -71,7 +71,7 @@ public class ItemStickyNote extends Item implements ITileEntityProvider, IInvent
 		ItemStack stack = player.getHeldItem(hand);
 
 		if (!world.isRemote)
-			player.openGui(stickyNote.instance, 5, player.world, 0, 0, 0);
+			player.openGui(ModStickyNote.instance, 5, player.world, 0, 0, 0);
 		return new ActionResult(EnumActionResult.SUCCESS, stack);
 	}
 
@@ -82,7 +82,7 @@ public class ItemStickyNote extends Item implements ITileEntityProvider, IInvent
 	@Override
 	public String getUnlocalizedName(ItemStack stack) {
 
-		return "item." + stickyNote.RESOURCEPREFIX + Names.STICKY_NOTE; // item.stickyNote:stickynote_item
+		return "item." + ModStickyNote.RESOURCEPREFIX + Names.STICKY_NOTE; // item.stickyNote:stickynote_item
 
 	}
 

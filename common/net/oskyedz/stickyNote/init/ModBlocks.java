@@ -9,9 +9,9 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import net.oskyedz.stickyNote.stickyNote;
 import net.oskyedz.stickyNote.block.BlockStickyNote;
 import net.oskyedz.stickyNote.lib.Names;
+import net.oskyedz.stickyNote.main.ModStickyNote;
 
 /**
  * This class handles Block registration. It's very similar to ModItems.
@@ -35,7 +35,7 @@ public class ModBlocks {
 	public static void init() {
 
 		// Store resource location since we need it twice.
-		ResourceLocation location = new ResourceLocation(stickyNote.MOD_ID,
+		ResourceLocation location = new ResourceLocation(ModStickyNote.MOD_ID,
 				Names.STICKY_BLOCK);
 		// Initialize the block and store the reference.
 		stickyNoteBlock = new BlockStickyNote();
@@ -72,7 +72,7 @@ public class ModBlocks {
 		// Everything past this point is identical to registering models for
 		// items.
 		ModelResourceLocation model = new ModelResourceLocation(
-				stickyNote.RESOURCEPREFIX + Names.STICKY_BLOCK, "inventory");
+				ModStickyNote.RESOURCEPREFIX + Names.STICKY_BLOCK, "inventory");
 		ModelLoader.registerItemVariants(item, model);
 		mesher.register(item, 0, model);
 	}
