@@ -1,4 +1,4 @@
-package net.oskyedz.stickyNote.GUI;
+package net.oskyedz.stickyNote.gui;
 
 import static org.lwjgl.opengl.GL11.glEnable;
 

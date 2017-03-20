@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
-import net.oskyedz.stickyNote.GUI.GuiStickyNote;
+import net.oskyedz.stickyNote.gui.GuiStickyNote;
 import net.oskyedz.stickyNote.init.ModBlocks;
 import net.oskyedz.stickyNote.init.ModItems;
 
